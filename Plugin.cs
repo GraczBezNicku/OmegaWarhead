@@ -24,7 +24,7 @@ namespace OmegaWarhead
         private static CoroutineHandle _coroutineHandle;
         private static bool _omegaWarhead;
 
-        [PluginEntryPoint("OmegaWarhead", "1.0.0", "Destory the whole facility", "Misaka_ZeroTwo")]
+        [PluginEntryPoint("OmegaWarhead", "1.1.0", "Destory the whole facility", "Misaka_ZeroTwo")]
         void LoadPlugin()
         {
             PluginAPI.Events.EventManager.RegisterEvents(this);
