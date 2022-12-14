@@ -28,7 +28,6 @@ namespace OmegaWarhead
         void LoadPlugin()
         {
             PluginAPI.Events.EventManager.RegisterEvents(this);
-            FactoryManager.RegisterPlayerFactory<PlayerFactory>(this);
         }
 
         [PluginEvent(ServerEventType.RoundStart)]
