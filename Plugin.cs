@@ -37,7 +37,7 @@ namespace OmegaWarhead
         }
 
         [PluginEvent(ServerEventType.RoundEnd)]
-        void OnRoundEnd()
+        void OnRoundEnd(RoundEndEvent ev)
         {
             Timing.KillCoroutines(_coroutineHandle);
         }
